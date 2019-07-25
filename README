@@ -1,0 +1,15 @@
+Installation:
+
+	git clone git://github.com/cjholmes/dotfiles/ ~/.vim
+
+Create symlinks:
+
+	ln -s ~/.vim/vimrc ~/.vimrc
+	ln -s ~/.vim/bashrc ~/.bashrc
+
+Switch to the `~/.vim` directory, and fetch submodules:
+
+	cd ~/.vim
+	git submodule init
+	git submodule update
+https://github.com/Yggdroot/indentLine
