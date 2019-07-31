@@ -6,7 +6,7 @@ Create symlinks:
 
 	ln -s ~/.vim/vimrc ~/.vimrc
 	ln -s ~/.vim/bashrc ~/.bashrc
-   ln -s ~/.vim/inputrc ~/.inputrc
+   	ln -s ~/.vim/inputrc ~/.inputrc
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
