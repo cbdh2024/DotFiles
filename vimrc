@@ -45,12 +45,6 @@ syntax on
 set t_Co=256
 colorscheme monokai
 
-"  Stuff for csupport.
-"let g:C_AuthorName = 'Josh Hamacher'
-"let g:C_AuthorRef  = 'JH'
-"let g:C_Email      = 'josh.hamacher@faac.com'
-"let g:C_Company    = 'FAAC Inc.'
-
 "  Set up autocommands.
 if !exists("autocommands_loaded")
    let autocommands_loaded = 1
@@ -87,12 +81,6 @@ if !exists("autocommands_loaded")
    autocmd BufReadPre *.cpp set cindent
 
    autocmd BufReadPRe *.tex set wrap
-   "  These are specific for Perforce.
-   "if !exists("au_p4_cmd")
-     "let au_p4_cmd=1
-     "au BufEnter * call IsUnderPerforce()
-     "au FileChangedRO * call P4Checkout()
-   "endif
 
 endif
 
@@ -138,42 +126,3 @@ nnoremap <Down> <C-w>j
 inoremap <Left> <Nop>
 inoremap <Up> <Nop>
 inoremap <Down> <Nop>
-"-------------------------------------------------------------------------------
-"  Functions
-"-------------------------------------------------------------------------------
-
-" If this file is in Perforce, set a buffer-local variable.
-"function IsUnderPerforce()
-   "  Use the existence of this environment as an indicator of whether or not
-   "  Perforce is set up.
-"   if exists("$P4CONFIG")
-      "  Assume failure.
-"      let b:inp4 = 0
-
-      "  Perforce is set up.  Now try to determine if this file is in Perforce.
-"      let l:cmd = \"p4 have \" . expand("%:p") . \" 2>&1"
-"      let l:rep = system(cmd)
-"      if rep =~ \".*not under client's root.*"
-"         echo \"This file is not under your client root"
-"      elseif rep =~ \".*not on client"
-"         echo \"This file is not part of your client"
-"      else
-"         let b:inp4 = 1
-"      endif
-"   else
-
-"echo \"Is Perforce set up?"
-"   endif
-"endfunction
-
-" Confirm with the user, then checkout a file from perforce.
-"function P4Checkout()
-"   if b:inp4 > 0
-"      if (confirm("Checkout from Perforce?", "&Yes\n&No", 1) == 1)
-"         call system("p4 edit " . expand("%:p") . " > /dev/null")
-"         if v:shell_error == 0
-"            set noreadonly
-"         endif
-"      endif
-"    endif
-"endfunction
