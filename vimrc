@@ -45,6 +45,8 @@ syntax on
 set t_Co=256
 colorscheme monokai
 
+hi Normal guibg=NONE ctermbg=NONE
+
 "  Set up autocommands.
 if !exists("autocommands_loaded")
    let autocommands_loaded = 1

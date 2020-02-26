@@ -91,6 +91,3 @@ alias vcts_ios='cd /mnt/c/Users/cholmes/IOS'
 alias system_control='cd /mnt/c/Users/cholmes/SystemControl'
 alias workspace='cd /mnt/c/Users/cholmes/Workspace'
 alias cmakeclean='rm -f CMakeCache.txt rm -rf CMakeFiles rm -f *.sln'
-export PATH="/home/cholmes/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
