@@ -46,7 +46,7 @@ set t_Co=256
 colorscheme monokai
 
 hi Normal guibg=NONE ctermbg=NONE
-
+hi lineNr ctermbg=NONE guibg=NONE
 "  Set up autocommands.
 if !exists("autocommands_loaded")
    let autocommands_loaded = 1
