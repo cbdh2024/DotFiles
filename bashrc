@@ -89,5 +89,6 @@ alias vcts_cds='cd /mnt/c/Users/cholmes/VCTS_CDS'
 alias vcts_sgs='cd /mnt/c/Users/cholmes/VCTS_SGS'
 alias vcts_ios='cd /mnt/c/Users/cholmes/IOS'
 alias system_control='cd /mnt/c/Users/cholmes/SystemControl'
+export TERM=linux
 alias workspace='cd /mnt/c/Users/cholmes/Workspace'
 alias cmakeclean='rm -f CMakeCache.txt rm -rf CMakeFiles rm -f *.sln'
