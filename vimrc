@@ -26,6 +26,8 @@ set foldenable
 set foldmarker={,}
 set foldmethod=indent "sets fold on indent
 set foldlevelstart=15 "starts folding on the 10th indent
+set cursorline
+
 match ErrorMsg '\%>120v.\+'
 
 "Pathogen to Start All Plugins
@@ -47,6 +49,8 @@ colorscheme monokai
 
 hi Normal guibg=NONE ctermbg=NONE
 hi lineNr ctermbg=NONE guibg=NONE
+hi CursorLine cterm=NONE ctermbg=239
+
 "  Set up autocommands.
 if !exists("autocommands_loaded")
    let autocommands_loaded = 1
