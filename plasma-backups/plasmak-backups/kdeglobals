@@ -1,0 +1,161 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,kwin.upd:animation-speed,icons_remove_effects.upd:IconsRemoveEffects
+
+[ColorEffects:Disabled]
+Color=112,111,110
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+IntensityAmount=0.1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=2
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=65,70,84
+BackgroundNormal=65,70,84
+DecorationFocus=170,170,170
+DecorationHover=150,150,150
+ForegroundActive=255,170,0
+ForegroundInactive=160,160,160
+ForegroundLink=46,184,230
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=170,89,197
+
+[Colors:Complementary]
+BackgroundAlternate=59,64,69
+BackgroundNormal=49,54,59
+DecorationFocus=30,146,255
+DecorationHover=61,174,230
+ForegroundActive=246,116,0
+ForegroundInactive=175,176,179
+ForegroundLink=61,174,230
+ForegroundNegative=237,21,21
+ForegroundNeutral=201,206,59
+ForegroundNormal=239,240,241
+ForegroundPositive=17,209,22
+ForegroundVisited=61,174,230
+
+[Colors:Selection]
+BackgroundAlternate=82,148,226
+BackgroundNormal=82,148,226
+DecorationFocus=170,170,170
+DecorationHover=150,150,150
+ForegroundActive=255,170,0
+ForegroundInactive=160,160,160
+ForegroundLink=46,184,230
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=170,89,197
+
+[Colors:Tooltip]
+BackgroundAlternate=0,0,0
+BackgroundNormal=0,0,0
+DecorationFocus=170,170,170
+DecorationHover=150,150,150
+ForegroundActive=255,170,0
+ForegroundInactive=225,225,225
+ForegroundLink=46,184,230
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=170,89,197
+
+[Colors:View]
+BackgroundAlternate=60,67,79
+BackgroundNormal=64,69,82
+DecorationFocus=170,170,170
+DecorationHover=150,150,150
+ForegroundActive=255,170,0
+ForegroundInactive=160,160,160
+ForegroundLink=46,184,230
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=170,89,197
+
+[Colors:Window]
+BackgroundAlternate=56,60,74
+BackgroundNormal=56,60,74
+DecorationFocus=170,170,170
+DecorationHover=150,150,150
+ForegroundActive=255,170,0
+ForegroundInactive=160,160,160
+ForegroundLink=46,184,230
+ForegroundNegative=240,1,1
+ForegroundNeutral=255,221,0
+ForegroundNormal=255,255,255
+ForegroundPositive=128,255,128
+ForegroundVisited=170,89,197
+
+[DirSelect Dialog]
+DirSelectDialog Size=860,586
+History Items[$e]=smb://pi@raspberrypi.local/Backup/Music/MP3/Nine Inch Nails
+
+[General]
+ColorScheme=Glassy
+Name=Glassy
+TerminalApplication=xterm
+XftHintStyle=hintslight
+XftSubPixel=rgb
+dbfile=/home/chris/.mozilla/firefox/yad0ste8.default/places.sqlite
+fixed=Noto Mono,10,-1,5,50,0,0,0,0,0
+shadeSortColumn=true
+toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
+
+[Icons]
+Theme=We10X-blue-dark
+
+[KDE]
+LookAndFeelPackage=Glassy
+SingleClick=false
+contrast=0
+widgetStyle=kvantum
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+Speedbar Width=288
+View Style=DetailTree
+
+[KScreen]
+ScaleFactor=2
+ScreenScaleFactors=eDP1=2;DP1=2;DP2=2;HDMI1=2;HDMI2=2;VIRTUAL1=2;
+
+[WM]
+activeBackground=47,52,63
+activeBlend=47,52,63
+activeForeground=255,255,255
+inactiveBackground=47,52,63
+inactiveBlend=47,52,63
+inactiveForeground=200,200,200

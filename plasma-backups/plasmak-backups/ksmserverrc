@@ -1,0 +1,20 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=101e316b1b81b0000158514831400000011030006
+clientId2=101e316b1b81b0000159189061000000011120008
+count=2
+program1=/usr/bin/msm_kde_notifier
+program2=pulseaudio
+restartCommand1=/usr/bin/msm_kde_notifier,-session,101e316b1b81b0000158514831400000011030006_1591890664_619679
+restartCommand2=
+restartStyleHint1=0
+restartStyleHint2=0
+userId1=chris
+userId2=chris
+wasWm1=false
+wasWm2=false

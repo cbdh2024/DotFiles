@@ -1,0 +1,5 @@
+[Favorites-org.kde.plasma.kickoff.favorites.instance-2-70afffb6-0bf5-4e0c-bd03-eacf95d10291]
+ordering=applications:org.kde.dolphin.desktop,applications:Alacritty.desktop,applications:pamac-manager.desktop,applications:firefox.desktop,applications:libreoffice-writer.desktop,applications:systemsettings.desktop,applications:nextcloud.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-2-global]
+ordering=applications:org.kde.dolphin.desktop,applications:Alacritty.desktop,applications:pamac-manager.desktop,applications:firefox.desktop,applications:libreoffice-writer.desktop,applications:systemsettings.desktop,applications:nextcloud.desktop

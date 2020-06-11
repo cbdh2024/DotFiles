@@ -1,0 +1,6 @@
+[Backup]
+Type=SMB
+URL=smb://10.0.0.209/Backup
+
+[General]
+Index=Backup
