@@ -63,7 +63,8 @@ fi
 export PS1
 
 #Who needs emacs?
-alias emacs='vim'
+alias emacs='nvim'
+alias vim='nvim'
 alias eclipse='/usr/local/eclipse/eclipse &'
 #clears screen
 alias cls='clear'

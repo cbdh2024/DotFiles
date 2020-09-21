@@ -1,7 +1,7 @@
 "  Set up some options.
 set expandtab    " Expand tabs to spaces.
-set tabstop=3    " Tabstop every 3 characters.
-set shiftwidth=3 " Match tab stop for shifts.
+set tabstop=2    " Tabstop every 3 characters.
+set shiftwidth=2 " Match tab stop for shifts.
 set nowrap       " Do not wrap long lines.
 set sidescroll=2 " Scroll sideways by 2 columns at a time.
 set ruler        " Show position within file.
